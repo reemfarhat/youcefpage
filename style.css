@@ -21,7 +21,42 @@ You will find this is far easier than the opposite task of using CSS to cram you
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
+    background-color: black;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+
+
+
+img {
+    width: 100%;
+    display: block;
+    margin: 10px;
+  }
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 10px;
+    margin: auto;
+}
+
+
+.container-image {
+    width: 100%;
+    max-width: 1200px;
+    padding: 2px;
+    
+}
+
+.collage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+}
+
+
+
 
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
@@ -30,6 +65,23 @@ html, body {
     /* Any adjustments for tablets and larger go here.
     Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
 }
+
+
+.row{
+    width: 100%;
+    max-width: 1200px;
+    display:flex;
+    justify-content: space-between;
+    flex-basis: 33%;
+}
+
+.row > div {
+   width: 100%
+
+}
+
+
+
 
 /*********************************************************************
   YOUR DESKTOP-ONLY STYLES GO HERE
